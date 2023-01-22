@@ -3,6 +3,7 @@
 create a full Realtime Chat Application with Social Auth and dedicated chat APIs/sockets.
 Firebase and Chat Engine are greats tools to setup apps fast and easily - great to learn with!
 
+
  Used: 
 # -routing
 # -social auth
@@ -27,6 +28,7 @@ Firebase and Chat Engine are greats tools to setup apps fast and easily - great 
 <img width="1114" alt="image" src="https://user-images.githubusercontent.com/100461901/213932349-4ada23a1-e88a-4504-8495-97a238326d1b.png">
 
 
+## Try demo via link https://mchatbud.netlify.app/chats
 
 
 
