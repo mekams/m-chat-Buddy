@@ -39,7 +39,7 @@
   position: absolute;
   top: 22px;
   right: 22px;
-  color: white;
+  color: rgb(2, 2, 2);
   cursor: pointer;
 }
 
@@ -48,7 +48,7 @@
   background: transparent; /* Optional: just make scrollbar invisible */
 }
 
-/* Login Page */
+/* Login Page  main*/
 
 #login-page {
   /* background-image: linear-gradient(#bcff409c, #1ba9cc); */
@@ -76,6 +76,8 @@
  
 }
 
+/* Login  page card */
+
 #login-card h2{
   font-weight: 750;
   font-size: 35px;
@@ -91,22 +93,26 @@
 
 
 .google {
-  background-color: #6272c3;
-  color: rgba(221, 210, 196, 0.915);
+  background-color: #1a2858cf;
+  color: rgb(173 147 79 / 96%);
 }
 
 .note-heading {
-  color: #c51212;
-  margin-top: 20px;
+  font-family: cursive;
+  color: #b31414;
+  margin-top: 14px;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 570;
   
 }
 #extra{
-  font-weight: 500;
+  font-weight: 550;
   font-size: 12px;
-  color: rgba(2, 2, 2, 0.6)
+  color: rgb(18 17 17 / 80%);
 }
+
+
+/*Footer  */
 
 .footer-content, .footer-content-chats {
   position:absolute;
@@ -125,4 +131,13 @@
 
 .footer-content-chats p:hover{
   color: #afc6de;
+}
+
+
+/* media queries for footer */
+
+@media (height<810px) and (width<920px){
+  .footer-content, .footer-content-chats {
+    display: none;
+  }
 }

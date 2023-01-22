@@ -91,12 +91,12 @@ const Chats = () => {
         userSecret  = {user.uid}
       />
 
-      <div className="footer-chats">
+      {/* <div className="footer-chats">
         <div className="footer-content-chats">
-        {/* eslint-disable-next-line */}
+        eslint-disable-next-line
           <p>&#60; / &#62;❤️ Kamran Mustafa &copy; copyright 2022-23😃</p>
         </div>
-      </div>
+      </div> */}
 
     </div>
   );
