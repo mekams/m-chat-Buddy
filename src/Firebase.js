@@ -3,13 +3,15 @@ import  "firebase/auth";
 
 
 
-export const auth = firebase.initializeApp({                    //exporting the auth created by firebase and all id's &    
-    apiKey: "AIzaSyAtAG3LfoNnVoZNO5DHtN9v5kY2v1o3kbs",          //initialising the app using firebase as well as line 13
-    authDomain: "mchat-66f14.firebaseapp.com",
-    projectId: "mchat-66f14",
-    storageBucket: "mchat-66f14.appspot.com",
-    messagingSenderId: "442530921873",
-    appId: "1:442530921873:web:c2d1a2e2273b560beaae30"
+export const auth = firebase.initializeApp({                    //exporting the auth created by firebase and all id's & 
+  //initialising the app using firebase as well as line 13
+  apiKey:process.env.REACT_APP_apiKey,
+  authDomain:process.env.REACT_APP_authDomain,
+  projectId:process.env.REACT_APP_projectId,
+  storageBucket:process.env.REACT_APPstorageBucket,
+  messagingSenderId:process.env.REACT_APP_messagingSenderId,
+  appId:process.env.REACT_APP_appId,
+  measurementId:process.env.REACT_APP_measurementId
   }).auth();                                              //  calling auth() function which is chained  with initialise app
 
 
